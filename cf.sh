@@ -21,3 +21,5 @@ ufw allow from 2405:b500::/32 to any port 443 proto tcp
 ufw allow from 2405:8100::/32 to any port 443 proto tcp
 ufw allow from 2a06:98c0::/29 to any port 443 proto tcp
 ufw allow from 2c0f:f248::/32 to any port 443 proto tcp
+# SSH
+ufw allow SSH
